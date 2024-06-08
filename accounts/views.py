@@ -48,7 +48,7 @@ class UserBankAccountUpdateView(View):
     
 def user_logout(request):
     logout(request)
-    return redirect('user_login')
+    return redirect('login')
     
     
     
