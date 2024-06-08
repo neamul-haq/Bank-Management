@@ -46,5 +46,9 @@ class UserBankAccountUpdateView(View):
             return redirect('profile')  # Redirect to the user's profile page
         return render(request, self.template_name, {'form': form})
     
+def user_logout(request):
+    logout(request)
+    return redirect('user_login')
+    
     
     
