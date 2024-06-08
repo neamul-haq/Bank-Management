@@ -123,7 +123,7 @@ USE_TZ = True
 
 # STATIC_URL = 'static/'
 # Define the base URL to serve static files.
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 
 # Define the absolute path to the directory where collected static files will be stored.
 STATIC_ROOT = ('/core/static/img/')
